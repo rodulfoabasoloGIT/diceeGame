@@ -1,0 +1,46 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+html {
+  font-size: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: #35353f;
+  color: #fff;
+}
+
+.main {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.dice-one,
+dice-two {
+  width: 500px;
+}
+
+h2 {
+  font-size: 2rem;
+}
+h1 {
+  font-size: 5rem;
+}
+button {
+  padding-block: 0.5rem;
+  padding-inline: 2rem;
+  font-size: 1.25rem;
+  background-color: rgb(36, 222, 194);
+  border: none;
+  border-radius: 1rem;
+  cursor: pointer;
+}
