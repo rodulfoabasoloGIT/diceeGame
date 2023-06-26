@@ -19,11 +19,11 @@ function diceeGame() {
   console.log(random1, random2);
 
   if (random1 === random2) {
-    result.innerHTML = "draw!";
+    result.textContent = "draw!";
   } else if (random1 > random2) {
-    result.innerHTML = "First Player Wins!";
+    result.textContent = "First Player Wins!";
   } else {
-    result.innerHTML = "Second Player Wins!";
+    result.textContent = "Second Player Wins!";
   }
 }
 diceeGame();
